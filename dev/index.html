@@ -1,115 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Personal Website</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        <!--using-font-awesome---------->
-        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>LetMeExplainMyself</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
-        <section>
-        <!---navigation----------------->
-        <nav>
-            <!--logo-->
-            <a href="#" class="logo">LetMeExplainMyself</a>
-            <!--menu-->
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Team</a></li>
-            </ul>    
-        </nav>
-        <!--text------------------------->
-        <div class="text-container">
-            <p>Hello,</p>
-            <p>I'M Judy</p>
-            <p>I am a Security Researcher <br>& Developer</p>
-            <button class="hire-btn">My Blog</button>
-            <button class="down-cv">Download CV</button>
-        </div>
-        <!--model------------------------>
-        <img src="./img/model.png" class="model" alt="model">
+        <header class="header">
+            <a href="#" class="logo">LetMeExplainMyself.</a>
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="./about.html">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home-content">
+                <h1>Myself, Judy Abraham</h1>
+                <h3>Security Researcher & Developer</h3>
+                <p>I am a positive minded engineering enthusiast interested in solving modern problems using technology, and I am like minded in contributing a better part of my technical skill for a safer and secure Internet.</p>
+                <div class="btn-box">
+                    <a href="./Judy-Abraham-CV.pdf" target="_blank">Know Better</a>
+                    <a href = "mailto: mrjudyabraham@gmail.com">Let's Talk</a>
+                </div>
+            </div>
+            <div class="home-sci">
+                <a href="https://twitter.com/mrJudyAbraham" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/mrjudyabraham/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/mrJudyAbraham" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <span class="home-imageHover"></span>
         </section>
-        <!--about-section---------------->
-        <div class="about-container">
-            <img src="./img/about-img.png">
-        <!--about-text----------------------->
-        <div class="about-text">
-            <p>About Me</p>
-            <p>Security Researcher & Developer</p>
-            <p>Hello My name is Judy Abraham. I am a Security Researcher and a Developer. If you have any project or if you want to make a software for your business
-                contact me. I make as soon as possible. You realy like my work, if you dont i change this until you like i give you satisfaction result.
-                I am a developer and also a designer. If you have any project or if you want make a software  for your business contact me. I make your project as
-                soon as possible.
-            </p>
-            <button>Go to my Blog</button>
-            <button>Download CV</button>
-        </div>
-        </div>
-        <!--Services--------------------->
-        <div class="services">
-            <div class="services-text">
-                <p>What all can i do ?</p>
-                <p></p>
-                <p>If you want to make a software for your business contact me. i make as soon as possible. You really like my work, if you dont i change this untill
-                    you like if you want make a software for your business contact me. I make as soon
-                </p>
-            </div>
-            <!--box---------------------->
-            <div class="box-container">
-                <!--1-------------------->
-                <div class="box-1">
-                    <span>1</span>
-                    <p class="heading">My Research</p>
-                    <p class="details">If you want makw a software for your business contact me. I make as soon as possible. You really like my work, if you dont
-                        i change this until you like if you want.
-                    </p>
-                    <button>Read More</button>
-                </div>
-                <!--2-------------------->
-                <div class="box-2">
-                    <span>2</span>
-                    <p class="heading">Latest Exploits</p>
-                    <p class="details">If you want makw a software for your business contact me. I make as soon as possible. You really like my work, if you dont
-                        i change this until you like if you want.
-                    </p>
-                    <button>Read More</button>
-                </div>
-                <!--3-------------------->
-                <div class="box-3">
-                    <span>3</span>
-                    <p class="heading">Writeups</p>
-                    <p class="details">If you want makw a software for your business contact me. I make as soon as possible. You really like my work, if you dont
-                        i change this until you like if you want.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </div>
-        </div>
-        <!---Contact-me--------------->
-        <div class="contact-me">
-            <p>If you have any ideas of collab in your mind.</p>
-            <button>Contact me</button>
-        </div>
-        <!--footer--------------------->
-        <footer>
-            <p>LetMeExplainMyself</p>
-            
-            <!--social------------------>
-            <div class="social-icons">
-                <a href="https://twitter.com/mrJudyAbraham"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/mrjudyabraham/"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-            <!--copyright----------------->
-            <!-- <p class="copyright">Copyright by Going-To Internet</p> -->
-        </footer>
-        <div class="a-social-b">
-            <a href="https://twitter.com/mrJudyAbraham"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/mrjudyabraham/"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
     </body>
 </html>

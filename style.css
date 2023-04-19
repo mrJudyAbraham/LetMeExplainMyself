@@ -55,7 +55,7 @@ body{
 }
 .home{
     height: 100vh;
-    background: url('./portfolio-cover.png') no-repeat;
+    background: url('./data/portfolio-cover.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
