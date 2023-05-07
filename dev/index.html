@@ -1,40 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>LetMeExplainMyself</title>
-        <link rel="stylesheet" href="./style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="logo">LetMeExplainMyself.</a>
-            <nav class="navbar">
-                <a href="#" class="active">Home</a>
-                <a href="./about.html">About</a>
-                <a href="#">Services</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-        <section class="home">
-            <div class="home-content">
-                <h1>Myself, Judy Abraham</h1>
-                <h3>Security Researcher & Developer</h3>
-                <p>I am a positive minded engineering enthusiast interested in solving modern problems using technology, and I am like minded in contributing a better part of my technical skill for a safer and secure Internet.</p>
-                <div class="btn-box">
-                    <a href="./Judy-Abraham-CV.pdf" target="_blank">Know Better</a>
-                    <a href = "mailto: mrjudyabraham@gmail.com">Let's Talk</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive personal portfolio website html css javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Jacob.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Jacob Aiden</span></h1>
+            <div class="text-animate">
+                <h3>Frontend Developer</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum illo, aperiam odio veritatis incidunt necessitatibus, dolore distinctio tempore tenetur eveniet ipsa eius sapiente quam quasi, praesentium dolorum adipisci ex? Quis?</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire me</a>
+                <a href="#" class="btn">Lets Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+        <div class="home-imgHover"></div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="./about-pic.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Frontend Developer!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At accusantium, nisi minima dolores sint facilis laboriosam deleniti non asperiores ad quasi nobis nihil sequi. Porro fugit impedit quis doloremque eius? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, perferendis! Error repellat impedit labore velit nihil placeat ea! Consequuntur corporis eveniet mollitia facilis! Ullam non iure officia! Harum, nam vero.</p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2017-2018</div>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas aut aspernatur odit voluptatum. Labore id dolor, in reiciendis accusamus tempore. Quidem, minima eum aspernatur debitis ut sint aliquam numquam?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2018-2019</div>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas aut aspernatur odit voluptatum. Labore id dolor, in reiciendis accusamus tempore. Quidem, minima eum aspernatur debitis ut sint aliquam numquam?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2019-2020</div>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas aut aspernatur odit voluptatum. Labore id dolor, in reiciendis accusamus tempore. Quidem, minima eum aspernatur debitis ut sint aliquam numquam?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="home-sci">
-                <a href="https://twitter.com/mrJudyAbraham" target="_blank"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.linkedin.com/in/mrjudyabraham/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
-                <a href="https://github.com/mrJudyAbraham" target="_blank"><i class='bx bxl-github'></i></a>
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2017-2018</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas aut aspernatur odit voluptatum. Labore id dolor, in reiciendis accusamus tempore. Quidem, minima eum aspernatur debitis ut sint aliquam numquam?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2018-2019</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas aut aspernatur odit voluptatum. Labore id dolor, in reiciendis accusamus tempore. Quidem, minima eum aspernatur debitis ut sint aliquam numquam?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2019-2020</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas aut aspernatur odit voluptatum. Labore id dolor, in reiciendis accusamus tempore. Quidem, minima eum aspernatur debitis ut sint aliquam numquam?</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <span class="home-imageHover"></span>
-        </section>
-    </body>
+
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Javascript <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>97%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>77%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Web Development <span>64%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Graphics Design <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SEO Marketing <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by codehal | All rights reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
